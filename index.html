@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab4U</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Lab4U</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Sign Up</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Login</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    
+    <div class="visible-to-user">
+        <!-- Heading and sub heading in one div -->
+        <div class="heading-container">
+            <div class="heading">
+                <h1 id="main-heading">Welcome to Lab4U</h1>
+                <h2 id="sub-heading">One Stop For All Your Lab Requirements</h2>
+            </div>
+        </div>
+        <!-- Give choice to user to select either manual or photos and video classes-->
+        <div class="options-container">
+            <div class="options">
+                <div class="card manual-card" style="width: 18rem;">
+                    <img src="./book.png" class="card-img-top" alt="open book">
+                    <div class="card-body">
+                    <h5 class="card-title">Lab Manuals</h5>
+                    <p class="card-text">Designed by the faculty.<br />Consists of clear description of all the experiments</p>
+                    <a href="#" class="btn btn-primary">Click to access</a>
+                    </div>
+                </div>
+            </div>
+            <div class="options">
+                <div class="card lab-card" style="width: 18rem;">
+                    <img src="./lab.jpg" class="card-img-top" alt="laboratory">
+                    <div class="card-body">
+                    <h5 class="card-title">Connections</h5>
+                    <p class="card-text">Pictorial representation of the procedure.<br />Step by Step representation</p>
+                    <a href="#" class="btn btn-primary">Click to access</a>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <!--What we offer and benifits built using 12 column layout of bootstrap-->
+    <div class="container features">
+        <div class="row">
+            <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                <h2 id="head-offer">What We Offer?</h2>
+            </div>
+            
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 ran">
+                <img class="block-image" src="./teacher.png"/>
+                <h3 class="feature-head">Connections Taught</h3>
+                <h4 class="explain-feature">Perfect sound quality and design</h4>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 ran">
+                <img class="block-image" src="./notes.png"/>
+                <h3 class="feature-head">Lab Manual Notes</h3>
+                <h4 class="explain-feature">Detailed Explanation to every experiment</h4>
+            </div>
+            <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 ran">
+                <img class="block-image" src="./customer-support.png"/>
+                <h3 class="feature-head">24/7 Support</h3>
+                <h4 class="explain-feature">Email and Phone Support</h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container footer">
+        <footer class="py-3 my-4">
+          <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item foot-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+            <li class="nav-item foot-item"><a href="#" class="nav-link px-2 text-body-secondary">Sign-Up</a></li>
+            <li class="nav-item foot-item"><a href="#" class="nav-link px-2 text-body-secondary">About Us</a></li>
+          </ul>
+          <p class="text-center text-body-secondary">© 2023 Lab4U CopyRight</p>
+        </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+</body>
+</html>
